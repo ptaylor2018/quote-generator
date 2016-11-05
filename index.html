@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My quote generator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 well">
+            <h1 class="text-center"> Get a quote! </h1>
+            <script src="test.js"></script>
+            <div class=" text-center">
+                <a class="btn btn-primary btn-lg" onclick="getQuote()" role="button"> Click me!</a>
+                <p id="quote"></p>
+                <p><i id="author"></i></p>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="test" data-hashtags="quotes" data-show-count="false">Tweet</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+</body>
