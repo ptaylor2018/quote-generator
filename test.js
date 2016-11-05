@@ -15,5 +15,6 @@ function getQuote() {
     var speaker = quotes[number][1];
     document.getElementById("quote").innerHTML = quote;
     document.getElementById("author").innerHTML = speaker;
-    document.getElementById("tweet").data - text = "text";
+    document.getElementById("tweet").setAttribute("data-text", "text");
+    //text
 }
